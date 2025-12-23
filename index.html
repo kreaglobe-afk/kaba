@@ -52,13 +52,18 @@
                 <div class="hidden md:flex space-x-8 text-sm font-bold uppercase tracking-wide">
                     <a href="#accueil" class="text-blue-900 hover:text-orange-500 transition">Accueil</a>
                     <a href="#propos" class="text-blue-900 hover:text-orange-500 transition">À Propos</a>
-                    <a href="#services" class="text-blue-900 hover:text-orange-500 transition">Nos Domaines</a>
+                    <a href="#services" class="text-blue-900 hover:text-orange-500 transition font-extrabold text-orange-500">Nos Domaines</a>
                     <a href="#contact" class="text-blue-900 hover:text-orange-500 transition">Contact</a>
                 </div>
 
-                <a href="https://wa.me/22900000000" class="bg-orange-500 text-white px-5 py-2.5 rounded-full font-bold text-sm hover:bg-orange-600 transition shadow-lg shadow-orange-500/30">
-                    WHATSAPP
-                </a>
+                <div class="flex items-center gap-2">
+                    <a href="#contact" class="bg-blue-900 text-white p-2.5 rounded-full hover:bg-blue-800 transition shadow-md flex items-center justify-center" title="Envoyez-nous un mail">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                    <a href="https://wa.me/2290141707923" class="bg-orange-500 text-white px-5 py-2.5 rounded-full font-bold text-sm hover:bg-orange-600 transition shadow-lg shadow-orange-500/30 flex items-center gap-2">
+                        <i class="fa-brands fa-whatsapp text-lg"></i> <span class="hidden sm:inline">WHATSAPP</span>
+                    </a>
+                </div>
             </div>
         </div>
     </nav>
@@ -130,7 +135,7 @@
                     <div class="p-8">
                         <div class="flex items-center gap-3 mb-6">
                             <div class="w-12 h-12 bg-blue-100 text-blue-900 rounded-full flex items-center justify-center text-xl"><i class="fa-solid fa-hotel"></i></div>
-                            <h3 class="text-2xl font-800 text-blue-900 uppercase font-bold">Immobilier</h3>
+                            <h3 class="text-2xl font-bold text-blue-900 uppercase">Immobilier</h3>
                         </div>
                         <div class="space-y-4">
                             <div>
@@ -146,7 +151,7 @@
                                 <ul class="space-y-2 text-sm text-gray-600">
                                     <li class="flex items-start gap-2"><i class="fa-solid fa-check text-blue-900 mt-1"></i> Gestion locative / Guest House</li>
                                     <li class="flex items-start gap-2"><i class="fa-solid fa-check text-blue-900 mt-1"></i> Logements sociaux</li>
-                                    <li class="flex items-start gap-2"><i class="fa-solid fa-check text-blue-900 mt-1"></i> Location de mobiliers (Bâches)</li>
+                                    <li class="flex items-start gap-2"><i class="fa-solid fa-check text-blue-900 mt-1"></i> Location de mobiliers</li>
                                 </ul>
                             </div>
                         </div>
@@ -158,7 +163,7 @@
                     <div class="p-8">
                         <div class="flex items-center gap-3 mb-6">
                             <div class="w-12 h-12 bg-orange-100 text-orange-600 rounded-full flex items-center justify-center text-xl"><i class="fa-solid fa-map-location-dot"></i></div>
-                            <h3 class="text-2xl font-800 text-blue-900 uppercase font-bold">Tourisme</h3>
+                            <h3 class="text-2xl font-bold text-blue-900 uppercase">Tourisme</h3>
                         </div>
                         <div class="space-y-4">
                             <div>
@@ -172,7 +177,7 @@
                                 <h4 class="text-orange-500 font-bold text-sm uppercase mb-2">Expériences</h4>
                                 <ul class="space-y-2 text-sm text-gray-600">
                                     <li class="flex items-start gap-2"><i class="fa-solid fa-check text-blue-900 mt-1"></i> Randonnée, chutes & cascades</li>
-                                    <li class="flex items-start gap-2"><i class="fa-solid fa-check text-blue-900 mt-1"></i> Quotidien des tanois & Circuit VTT</li>
+                                    <li class="flex items-start gap-2"><i class="fa-solid fa-check text-blue-900 mt-1"></i> Circuit VTT & Nature</li>
                                 </ul>
                             </div>
                         </div>
@@ -184,14 +189,14 @@
                     <div class="p-8">
                         <div class="flex items-center gap-3 mb-6">
                             <div class="w-12 h-12 bg-green-100 text-green-600 rounded-full flex items-center justify-center text-xl"><i class="fa-solid fa-seedling"></i></div>
-                            <h3 class="text-2xl font-800 text-blue-900 uppercase font-bold">Agrobusiness</h3>
+                            <h3 class="text-2xl font-bold text-blue-900 uppercase">Agrobusiness</h3>
                         </div>
                         <div class="space-y-4">
                             <div>
                                 <h4 class="text-orange-500 font-bold text-sm uppercase mb-2">Production</h4>
                                 <ul class="space-y-2 text-sm text-gray-600">
-                                    <li class="flex items-start gap-2"><i class="fa-solid fa-check text-blue-900 mt-1"></i> Céréales, tubercules et fruits</li>
-                                    <li class="flex items-start gap-2"><i class="fa-solid fa-check text-blue-900 mt-1"></i> Transformation agro-alimentaire</li>
+                                    <li class="flex items-start gap-2"><i class="fa-solid fa-check text-blue-900 mt-1"></i> Céréales & fruits tropicaux</li>
+                                    <li class="flex items-start gap-2"><i class="fa-solid fa-check text-blue-900 mt-1"></i> Transformation locale</li>
                                 </ul>
                             </div>
                             <div>
@@ -212,28 +217,21 @@
         <div class="max-w-7xl mx-auto px-4 text-center">
             <h2 class="text-3xl md:text-4xl font-extrabold text-blue-900 uppercase mb-4">Pourquoi nous faire confiance ?</h2>
             <div class="w-20 h-1.5 bg-orange-500 mx-auto mb-16"></div>
-            
             <div class="grid md:grid-cols-3 gap-8">
                 <div class="p-8 rounded-2xl bg-slate-50 border border-slate-100 card-hover">
-                    <div class="w-16 h-16 bg-blue-900 text-white rounded-xl flex items-center justify-center text-2xl mx-auto mb-6">
-                        <i class="fa-solid fa-star"></i>
-                    </div>
+                    <div class="w-16 h-16 bg-blue-900 text-white rounded-xl flex items-center justify-center text-2xl mx-auto mb-6"><i class="fa-solid fa-star"></i></div>
                     <h4 class="text-xl font-bold text-blue-900 mb-3">Expertise Multisectorielle</h4>
-                    <p class="text-gray-600 text-sm">Maîtrise approfondie de nos trois secteurs clés pour des solutions intégrées.</p>
+                    <p class="text-gray-600 text-sm">Maîtrise approfondie de nos secteurs pour des solutions intégrées.</p>
                 </div>
                 <div class="p-8 rounded-2xl bg-slate-50 border border-slate-100 card-hover">
-                    <div class="w-16 h-16 bg-orange-500 text-white rounded-xl flex items-center justify-center text-2xl mx-auto mb-6">
-                        <i class="fa-solid fa-user-tie"></i>
-                    </div>
+                    <div class="w-16 h-16 bg-orange-500 text-white rounded-xl flex items-center justify-center text-2xl mx-auto mb-6"><i class="fa-solid fa-user-tie"></i></div>
                     <h4 class="text-xl font-bold text-blue-900 mb-3">Équipe Professionnelle</h4>
                     <p class="text-gray-600 text-sm">Des experts qualifiés et passionnés au service de votre réussite.</p>
                 </div>
                 <div class="p-8 rounded-2xl bg-slate-50 border border-slate-100 card-hover">
-                    <div class="w-16 h-16 bg-green-600 text-white rounded-xl flex items-center justify-center text-2xl mx-auto mb-6">
-                        <i class="fa-solid fa-leaf"></i>
-                    </div>
+                    <div class="w-16 h-16 bg-green-600 text-white rounded-xl flex items-center justify-center text-2xl mx-auto mb-6"><i class="fa-solid fa-leaf"></i></div>
                     <h4 class="text-xl font-bold text-blue-900 mb-3">Approche Durable</h4>
-                    <p class="text-gray-600 text-sm">Engagement fort pour l'environnement et le développement local.</p>
+                    <p class="text-gray-600 text-sm">Engagement fort pour le développement local au Bénin.</p>
                 </div>
             </div>
         </div>
@@ -247,34 +245,43 @@
                         <h2 class="text-4xl font-extrabold mb-8 uppercase">Nous Contacter</h2>
                         <div class="space-y-8">
                             <div class="flex items-center gap-6">
+                                <div class="w-14 h-14 bg-white/10 rounded-2xl flex items-center justify-center text-2xl"><i class="fa-solid fa-phone"></i></div>
+                                <div><p class="text-blue-300 text-sm italic">Téléphone</p><p class="text-xl font-bold">01 41 70 79 23</p></div>
+                            </div>
+                            <div class="flex items-center gap-6">
+                                <div class="w-14 h-14 bg-white/10 rounded-2xl flex items-center justify-center text-2xl"><i class="fa-solid fa-envelope"></i></div>
+                                <div><p class="text-blue-300 text-sm italic">Email</p><p class="text-lg font-bold break-all">imokabatours2018@gmail.com</p></div>
+                            </div>
+                            <div class="flex items-center gap-6">
                                 <div class="w-14 h-14 bg-white/10 rounded-2xl flex items-center justify-center text-2xl"><i class="fa-solid fa-location-dot"></i></div>
                                 <div><p class="text-blue-300 text-sm italic">Adresse</p><p class="text-xl font-bold">Tanguiéta, Bénin</p></div>
                             </div>
-                            <div class="flex items-center gap-6">
-                                <div class="w-14 h-14 bg-white/10 rounded-2xl flex items-center justify-center text-2xl"><i class="fa-solid fa-clock"></i></div>
-                                <div class="w-full">
-                                    <p class="text-blue-300 text-sm italic">Nos Horaires</p>
-                                    <div class="text-sm space-y-1">
-                                        <p class="flex justify-between"><span>Lun - Ven :</span> <span class="font-bold">8h00 - 18h00</span></p>
-                                        <p class="flex justify-between"><span>Samedi :</span> <span class="font-bold">8h00 - 14h00</span></p>
-                                        <p class="flex justify-between text-orange-400 font-bold uppercase italic"><span>Dimanche :</span> <span>Fermé</span></p>
-                                    </div>
-                                </div>
+                            
+                            <div class="flex flex-wrap gap-4 pt-4">
+                                <a href="https://wa.me/2290141707923" class="inline-flex items-center gap-3 bg-green-500 hover:bg-green-600 px-6 py-4 rounded-2xl font-bold transition-all transform hover:scale-105">
+                                    <i class="fa-brands fa-whatsapp text-2xl"></i> WhatsApp
+                                </a>
+                                <a href="mailto:imokabatours2018@gmail.com?subject=Contact depuis le site web" class="inline-flex items-center gap-3 bg-white text-blue-900 hover:bg-slate-100 px-6 py-4 rounded-2xl font-bold transition-all transform hover:scale-105">
+                                    <i class="fa-solid fa-paper-plane"></i> Envoyer un Mail
+                                </a>
                             </div>
-                            <a href="https://wa.me/22900000000" class="inline-flex items-center gap-3 bg-green-500 hover:bg-green-600 px-8 py-4 rounded-2xl font-bold transition-all transform hover:scale-105">
-                                <i class="fa-brands fa-whatsapp text-2xl"></i> Discuter sur WhatsApp
-                            </a>
                         </div>
                     </div>
+                    
                     <div class="bg-white p-12 md:p-20">
-                        <form class="space-y-5">
+                        <form action="https://formspree.io/f/mvzpllpa" method="POST" class="space-y-5">
                             <label class="block text-sm font-bold text-gray-700">Nom Complet</label>
-                            <input type="text" placeholder="Votre nom" class="w-full px-6 py-4 rounded-xl border border-slate-200 focus:border-orange-500 outline-none transition">
+                            <input type="text" name="name" required placeholder="Votre nom" class="w-full px-6 py-4 rounded-xl border border-slate-200 focus:border-orange-500 outline-none transition">
+                            
                             <label class="block text-sm font-bold text-gray-700">Email ou Téléphone</label>
-                            <input type="text" placeholder="Votre contact" class="w-full px-6 py-4 rounded-xl border border-slate-200 focus:border-orange-500 outline-none transition">
+                            <input type="text" name="contact" required placeholder="Votre contact" class="w-full px-6 py-4 rounded-xl border border-slate-200 focus:border-orange-500 outline-none transition">
+                            
                             <label class="block text-sm font-bold text-gray-700">Votre Message</label>
-                            <textarea rows="4" placeholder="Décrivez votre besoin..." class="w-full px-6 py-4 rounded-xl border border-slate-200 focus:border-orange-500 outline-none transition"></textarea>
-                            <button class="w-full bg-blue-900 text-white font-extrabold py-5 rounded-xl hover:bg-orange-500 transition shadow-xl uppercase tracking-widest">Envoyer</button>
+                            <textarea name="message" required rows="4" placeholder="Décrivez votre besoin..." class="w-full px-6 py-4 rounded-xl border border-slate-200 focus:border-orange-500 outline-none transition"></textarea>
+                            
+                            <button type="submit" class="w-full bg-blue-900 text-white font-extrabold py-5 rounded-xl hover:bg-orange-500 transition shadow-xl uppercase tracking-widest">
+                                Envoyer le message
+                            </button>
                         </form>
                     </div>
                 </div>
