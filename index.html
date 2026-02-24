@@ -288,9 +288,18 @@
             </div>
         </div>
     </section>
-    <script>
-  // Ce script remplace l'ancien numéro par le nouveau sans indicatif pays
-  document.body.innerHTML = document.body.innerHTML.replace(/01 41 70 79 23/g, '01 44 48 40 49');
+   <script>
+  // 1. Remplace le texte affiché sur le site
+  document.body.innerHTML = document.body.innerHTML.replace(/07 48 37 38 48/g, '01 44 48 40 49');
+
+  // 2. Remplace le lien technique du bouton WhatsApp pour le Bénin
+  // On utilise l'indicatif 229 pour que WhatsApp sache où envoyer le message
+  const links = document.querySelectorAll('a');
+  links.forEach(link => {
+    if (link.href.includes('0748373848')) {
+      link.href = 'https://wa.me/2290144484049';
+    }
+  });
 </script>
 
     <footer class="py-12 bg-white border-t border-slate-200">
@@ -308,5 +317,6 @@
 
 </body>
 </html>
+
 
 
